@@ -1,0 +1,139 @@
+/* General styles for the header and the image */
+.App-header {
+  background-color: #6381b4;
+  padding: 20px;
+  text-align: center;
+  color: white;
+}
+
+img {
+  width: 150px;
+  height: auto;
+  margin: 20px 0;
+}
+
+/* Styles for the form and its elements */
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 20px;
+  width: 100%; /* Full width to center content */
+}
+
+.input-group {
+  display: flex;
+  flex-direction: column;  /* Cambiado de row a column */
+  align-items: center;     /* Mantiene los elementos alineados centralmente */
+  width: 70%;              /* El ancho puede ser ajustado según la preferencia */
+  margin: 0 auto 10px auto;/* Centra horizontalmente el grupo de entrada */
+}
+
+input[type="text"], input[type="file"] + label {
+  width: 100%;             /* Hace que el input y el label ocupen todo el espacio disponible */
+  margin-top: 10px;        /* Agrega un poco de espacio arriba de cada input */
+}
+
+
+.file-label {
+  padding: 10px 20px;
+  background-color: #6381b4;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  white-space: nowrap; /* Evita que el texto del botón se envuelva */
+  display: inline-block; /* Esto asegurará que se comporte como un botón */
+
+}
+
+input[type="file"] {
+  display: none; /* Esto ocultará el input real */
+}
+
+
+button {
+  padding: 10px 20px; /* Asegúrate de que el padding sea igual al del label de arriba */
+  background-color: #6381b4;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  white-space: nowrap; /* Evita que el texto del botón se envuelva */
+  margin-top: 10px; /* Espaciado para separarlo del grupo de entrada */
+}
+
+button:hover {
+  background-color: #507ca4; /* Un tono más oscuro para el estado hover */
+}
+
+/* Styling the error message */
+.error-message {
+  color: #ff3860;
+  background-color: #ffe5e7;
+  border: 1px solid #ff3860;
+  padding: 10px;
+  border-radius: 5px;
+  width: 70%;
+  margin: 10px auto; /* Centra el mensaje de error horizontalmente */
+}
+
+.dropdown-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+}
+
+label {
+  color: #575757;
+  margin-bottom: 5px;
+}
+
+select {
+  width: 70%;
+  padding: 10px;
+  margin-top: 5px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  cursor: pointer;
+}
+
+.analyzing-container {
+  display: flex;
+  flex-direction: column; /* Cambio importante para alinear los hijos verticalmente */
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #6fa3d4;
+  color: #404142;
+  font-size: 24px;
+  font-family: 'Arial', sans-serif;
+  z-index: 100;
+}
+
+.analyzing-message {
+  margin-bottom: 20px; /* Espacio entre el mensaje y el botón */
+  padding: 20px;
+  border-radius: 10px;
+  background-color: #9cf099;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.cancel-button {
+  padding: 10px 20px;
+  background-color: #a7a0a2; /* Color de fondo para el botón cancelar */
+  color: #404142;;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  white-space: nowrap;
+}
+
+.cancel-button:hover {
+  background-color: #c0b2b4; /* Color más oscuro en hover */
+}
