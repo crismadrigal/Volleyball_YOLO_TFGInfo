@@ -1,10 +1,10 @@
 # Volleyball_YOLO_TFGInfo
 This project provides an application for volleyball analysis using YOLO. Below are the steps to set up both the client and server sides of the application.
 
-#Prerequisites
+**Prerequisites**
 Node.js and npm installed on your system.
 
-#Client Setup
+**Client Setup**
 Follow these steps to set up the client side of the application using React:
 1. Create a new React application:
 npx create-react-app volleyball_analysis
@@ -20,7 +20,7 @@ Copy the img directory and the image located in the public directory of this rep
 npm start
 
 
-#Server Setup
+**Server Setup**
 1. Create and configure the server:
 mkdir server
 cd server
@@ -37,5 +37,5 @@ node server.js
 Add the weights directory at the same level as the server directory.
 
 
-#Files for Analysis:
+**Files for Analysis:**
 All files to be analyzed and examined from the interface should be placed in the files directory which must be at the same level as the server, the client or the weights directories.
