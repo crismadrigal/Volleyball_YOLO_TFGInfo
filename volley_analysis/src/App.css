@@ -23,10 +23,10 @@ form {
 
 .input-group {
   display: flex;
-  flex-direction: column;  /* Cambiado de row a column */
+  flex-direction: column;  
   align-items: center;     /* Mantiene los elementos alineados centralmente */
-  width: 70%;              /* El ancho puede ser ajustado según la preferencia */
-  margin: 0 auto 10px auto;/* Centra horizontalmente el grupo de entrada */
+  width: 70%;              
+  margin: 0 auto 10px auto; /* Centra horizontalmente el grupo de entrada */
 }
 
 input[type="text"], input[type="file"] + label {
@@ -43,17 +43,16 @@ input[type="text"], input[type="file"] + label {
   border-radius: 5px;
   cursor: pointer;
   white-space: nowrap; /* Evita que el texto del botón se envuelva */
-  display: inline-block; /* Esto asegurará que se comporte como un botón */
-
+  display: inline-block; 
 }
 
 input[type="file"] {
-  display: none; /* Esto ocultará el input real */
+  display: none; /* Ocultará el input real */
 }
 
 
 button {
-  padding: 10px 20px; /* Asegúrate de que el padding sea igual al del label de arriba */
+  padding: 10px 20px; 
   background-color: #6381b4;
   color: white;
   border: none;
@@ -64,7 +63,7 @@ button {
 }
 
 button:hover {
-  background-color: #507ca4; /* Un tono más oscuro para el estado hover */
+  background-color: #507ca4; 
 }
 
 /* Styling the error message */
@@ -101,7 +100,7 @@ select {
 
 .analyzing-container {
   display: flex;
-  flex-direction: column; /* Cambio importante para alinear los hijos verticalmente */
+  flex-direction: column; 
   justify-content: center;
   align-items: center;
   position: fixed;
